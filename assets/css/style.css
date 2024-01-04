@@ -1,0 +1,102 @@
+section.elegant-solution-sec-1 {
+    background-image: url(../images/coding.jpeg);
+    position: relative;
+    height: 100vh;
+}
+
+.elegant-sol-text {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    z-index: 555555;
+}
+
+
+
+.card-position {
+    transform: translateY(-6rem);
+}
+
+/* <!-- experiences  --> */
+section.experience-section-3 {
+    background-image: url(../images/doMore.jpeg);
+    height: 46.75rem;
+    position: relative;
+}
+
+section.experience-section-3 .box-shadow,
+section.experience-section-3 .box-height-shadow {
+    background-color: rgb(240, 248, 255, .7);
+    padding: 1rem;
+    box-shadow: 0 0 28px rgb(240, 248, 255, .7);
+}
+
+.experience-section-4 .image-height,
+.black-box {
+    height: 21rem;
+    object-fit: cover;
+    width: 100%;
+}
+
+.images-section-5 {
+    padding: 5rem 0;
+}
+
+.images-section-5 img {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* features-section-6 */
+.features-section-6 {
+    padding: 4rem 0;
+}
+
+/* digitalExperience-section-7 */
+section.digitalExperience-section-7 {
+    background-image: url(../images/table-lamp.jpeg);
+    height: 100vh;
+}
+
+.digitalExperience-section-7 {
+    position: relative;
+}
+
+/* ourProducts-section-8 */
+
+.ourProducts-section-8 {
+    background-image: url(../images/ourProducts.jpeg);
+    /* background-attachment: fixed; */
+    height: 100vh;
+    position: relative;
+}
+
+section.ourProducts-section-8::after {
+    left: 0;
+}
+
+
+section.ourProducts-section-8 .outproducts-box {
+    width: 60%;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    border: 1px solid white;
+    z-index: 5555;
+}
+
+.outproducts-box h5 {
+    font-size: 5px;
+}
+
+/* contact-us */
+.contact-us iframe {
+    height: 50vh;
+    width: 100%;
+}
+
+/* footer */
+
+.bg-dark-light {
+    background-color: #333333;
+}

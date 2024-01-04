@@ -1,0 +1,155 @@
+@media all and (max-width : 776px) {
+    .card-position {
+        transform: translateY(-7rem);
+    }
+
+    section.experience-section-3 {
+        height: 35.75rem;
+    }
+    section.ourProducts-section-8 .outproducts-box h1{
+        font-size: 16px;
+    }
+        section.ourProducts-section-8 .outproducts-box{
+            padding: 3rem;
+        }
+
+        .cus-card-section-2 .card-body {
+            min-height: 12rem;
+        }
+}
+
+@media all and (max-width : 371px) {
+    section.experience-section-3 {
+        height: 50rem;
+    }
+    section.ourProducts-section-8 .outproducts-box{
+        padding: 1rem;
+    }
+}
+
+@media all and (min-width :556px) and (max-width : 778px) {
+
+    .experience-section-4 .image-height,
+    .experience-section-4 .black-box {
+        height: 35rem;
+    }
+
+    .images-section-5 img {
+        width: 40%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .cus-card-section-2 .card-body {
+        min-height: 19rem;
+    }
+}
+
+@media all and (min-width : 779px) and (max-width : 991px) {
+    .elegant-sol-text {
+        top: 30%;
+        left: 17%;
+    }
+
+    .experience-section-4 .image-height,
+    .experience-section-4 .black-box {
+        height: 25rem;
+    }
+
+     .cus-card-section-2 .card-body {
+        min-height: 19rem;
+    }
+}
+
+@media all and (min-width : 768px) {
+    section.elegant-solution-sec-1 h1 {
+        font-size: 4rem;
+    }
+
+    section.experience-section-3 .box-right-side {
+        width: 40%;
+        position: absolute;
+        right: 10%;
+        top: 10%;
+        /* transform: translate(-50%,50%); */
+    }
+
+    section.experience-section-3 .box-height-shadow {
+        min-height: 14rem;
+        margin-right: 3rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .images-section-5 img {
+        width: 24%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    .outproducts-box {
+        width: 60%;
+    }
+
+    .digitalExperience-section-7 .qulity,
+    .digitalExperience-section-7 .speed {
+        position: absolute;
+        left: 10%;
+    }
+
+    .digitalExperience-section-7 .qulity {
+        top: 40%;
+    }
+
+    .speed {
+        bottom: 0;
+    }
+
+    section.ourProducts-section-8 .outproducts-box h1{
+        font-size: 16px;
+    }
+        section.ourProducts-section-8 .outproducts-box{
+            padding: 5rem;
+        }
+
+    
+}
+
+@media all and (min-width : 992px) {
+
+    .digitalExperience-section-7 .qulity,
+    .digitalExperience-section-7 .speed {
+        position: absolute;
+        left: 10%;
+        width: 40%;
+    }
+
+    .digitalExperience-section-7 .qulity {
+        top: 50%;
+    }
+
+    .speed {
+        bottom: 0;
+    }
+
+    section.ourProducts-section-8 .outproducts-box h1{
+        font-size: 16px;
+    }
+
+    .cus-card-section-2 .card-body {
+        min-height: 25rem;
+    }
+
+    .elegant-sol-text {
+        top: 30%;
+        left: 15%;
+    }
+}
+
+@media all and (min-width : 1201px) {
+    section.ourProducts-section-8 .outproducts-box h1{
+        font-size: 2rem;
+    }
+}
