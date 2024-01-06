@@ -11,10 +11,30 @@ section.elegant-solution-sec-1 {
     z-index: 555555;
 }
 
-
-
+/* cus-card-section-2 */
 .card-position {
     transform: translateY(-6rem);
+}
+
+.cus-card-section-2 h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cus-card-section-2 i {
+    background-color: #ff214f;
+    padding: 2rem;
+    border-radius: 50%;
+    font-size: 3rem;
+    color: white;
+}
+
+.cus-card-section-2 p {
+    font-style: italic;
+    color: #808080;
+    line-height: 2;
 }
 
 /* <!-- experiences  --> */
@@ -22,6 +42,22 @@ section.experience-section-3 {
     background-image: url(../images/doMore.jpeg);
     height: 46.75rem;
     position: relative;
+}
+
+.experience-section-3 .box-right-side p.para {
+    font-size: 1rem;
+    line-height: 1.9;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box-height-shadow p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: #808080;
+    line-height: 1.8;
+    margin-top: 2rem;   
+    font-style: italic;
 }
 
 section.experience-section-3 .box-shadow,
@@ -33,9 +69,15 @@ section.experience-section-3 .box-height-shadow {
 
 .experience-section-4 .image-height,
 .black-box {
-    height: 21rem;
+    height: 22rem;
     object-fit: cover;
     width: 100%;
+    background-color: black;
+}
+
+.experience-section-4 .black-box p {
+    color: #808080;
+    font-style: italic;
 }
 
 .images-section-5 {
@@ -51,6 +93,18 @@ section.experience-section-3 .box-height-shadow {
 /* features-section-6 */
 .features-section-6 {
     padding: 4rem 0;
+}
+
+.features-section-6 h3{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.features-section-6 li{
+    font-style: italic;
+    font-family: 'Open Sans',sans-serif;
+    margin-bottom: 10px;
+    color : #808080;
 }
 
 /* digitalExperience-section-7 */
