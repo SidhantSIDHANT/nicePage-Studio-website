@@ -18,6 +18,9 @@
     .cus-card-section-2 .card-body {
         min-height: 12rem;
     }
+
+  
+    
 }
 
 @media all and (max-width : 371px) {
@@ -89,10 +92,6 @@
         width: 24%;
         margin-left: 10px;
         margin-bottom: 10px;
-    }
-
-    .outproducts-box {
-        width: 60%;
     }
 
     .digitalExperience-section-7 .qulity,

@@ -143,15 +143,13 @@ section.ourProducts-section-8::after {
 
 section.ourProducts-section-8 .outproducts-box {
     min-height: 50%;
-    width: 60%;
+    width: 50%;
     position: absolute;
-    top: 25%;
-    left: 20%;
+    transform: translate(50%,50%);
     border: 1px solid white;
     z-index: 5555;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
 }
 
