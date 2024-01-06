@@ -18,7 +18,9 @@
     .cus-card-section-2 .card-body {
         min-height: 12rem;
     }
-
+    section.ourProducts-section-8 .outproducts-box {
+        width: 80%;
+    }
   
     
 }
@@ -115,6 +117,7 @@
     section.ourProducts-section-8 .outproducts-box {
         padding: 5rem;
     }
+
 }
 
 @media all and (min-width : 992px) {

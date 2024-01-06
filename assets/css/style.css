@@ -134,6 +134,10 @@ section.digitalExperience-section-7 {
     /* background-attachment: fixed; */
     height: 100vh;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 section.ourProducts-section-8::after {
@@ -141,17 +145,12 @@ section.ourProducts-section-8::after {
 }
 
 
-section.ourProducts-section-8 .outproducts-box {
-    min-height: 50%;
-    width: 50%;
-    position: absolute;
-    transform: translate(50%,50%);
+ section.ourProducts-section-8 .outproducts-box {
+        min-height: 50%;
+        width: 60%;
+    z-index: 2222;
     border: 1px solid white;
-    z-index: 5555;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+    }
 
 .outproducts-box h5 {
     font-size: 5px;
