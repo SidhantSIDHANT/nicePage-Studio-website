@@ -70,6 +70,7 @@ section.experience-section-3 .box-height-shadow {
 .experience-section-4 .image-height,
 .black-box {
     height: 22rem;
+    max-height: auto;
     object-fit: cover;
     width: 100%;
     background-color: black;
@@ -117,6 +118,15 @@ section.digitalExperience-section-7 {
     position: relative;
 }
 
+.digitalExperience-section-7 h4{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.digitalExperience-section-7 p{
+    font-style: italic;
+    color : #808080;
+}
 /* ourProducts-section-8 */
 
 .ourProducts-section-8 {
@@ -132,12 +142,17 @@ section.ourProducts-section-8::after {
 
 
 section.ourProducts-section-8 .outproducts-box {
+    min-height: 50%;
     width: 60%;
     position: absolute;
     top: 25%;
     left: 20%;
     border: 1px solid white;
     z-index: 5555;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
 }
 
 .outproducts-box h5 {
