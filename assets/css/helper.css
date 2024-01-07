@@ -9,7 +9,6 @@ a {
     text-decoration: none !important;
 }
 
-
 h5 {
     font-size: 1.1rem;
     color: #ff214f;
@@ -37,7 +36,6 @@ section.experience-section-3,
     background-size: cover;
     background-position: center;
 }
-
 
 section.elegant-solution-sec-1::after,
 .ourProducts-section-8::after {

@@ -40,7 +40,7 @@ section.elegant-solution-sec-1 {
 /* <!-- experiences  --> */
 section.experience-section-3 {
     background-image: url(../images/doMore.jpeg);
-    height: 46.75rem;
+    height: 54rem;
     position: relative;
 }
 
@@ -56,7 +56,7 @@ section.experience-section-3 {
     font-weight: 100;
     color: #808080;
     line-height: 1.8;
-    margin-top: 2rem;   
+    margin-top: 2rem;
     font-style: italic;
 }
 
@@ -69,12 +69,13 @@ section.experience-section-3 .box-height-shadow {
 
 .experience-section-4 .image-height,
 .black-box {
-    height: 22rem;
+    height: 27rem;
     max-height: auto;
     object-fit: cover;
     width: 100%;
     background-color: black;
 }
+
 
 .experience-section-4 .black-box p {
     color: #808080;
@@ -96,39 +97,39 @@ section.experience-section-3 .box-height-shadow {
     padding: 4rem 0;
 }
 
-.features-section-6 h3{
+.features-section-6 h3 {
     font-size: 1.6rem;
     margin-bottom: 1rem;
 }
 
-.features-section-6 li{
+.features-section-6 li {
     font-style: italic;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
-    color : #808080;
+    color: #808080;
 }
 
 /* digitalExperience-section-7 */
 section.digitalExperience-section-7 {
     background-image: url(../images/table-lamp.jpeg);
-    height: 100vh;
+    height: 824px;
 }
 
 .digitalExperience-section-7 {
     position: relative;
 }
 
-.digitalExperience-section-7 h4{
+.digitalExperience-section-7 h4 {
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
 
-.digitalExperience-section-7 p{
+.digitalExperience-section-7 p {
     font-style: italic;
-    color : #808080;
+    color: #808080;
 }
-/* ourProducts-section-8 */
 
+/* ourProducts-section-8 */
 .ourProducts-section-8 {
     background-image: url(../images/ourProducts.jpeg);
     /* background-attachment: fixed; */
@@ -144,13 +145,12 @@ section.ourProducts-section-8::after {
     left: 0;
 }
 
-
- section.ourProducts-section-8 .outproducts-box {
-        min-height: 50%;
-        width: 60%;
+section.ourProducts-section-8 .outproducts-box {
+    min-height: 50%;
+    width: 60%;
     z-index: 2222;
     border: 1px solid white;
-    }
+}
 
 .outproducts-box h5 {
     font-size: 5px;
@@ -162,8 +162,11 @@ section.ourProducts-section-8::after {
     width: 100%;
 }
 
-/* footer */
+.contact-us ul{
+    list-style: none !important;
+}
 
+/* footer */
 .bg-dark-light {
     background-color: #333333;
 }

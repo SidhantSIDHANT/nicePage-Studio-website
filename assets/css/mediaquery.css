@@ -3,9 +3,9 @@
         transform: translateY(-7rem);
     }
 
-    section.experience-section-3 {
+    /* section.experience-section-3 {
         height: 35.75rem;
-    }
+    } */
 
     section.ourProducts-section-8 .outproducts-box h1 {
         font-size: 16px;
@@ -18,17 +18,16 @@
     .cus-card-section-2 .card-body {
         min-height: 12rem;
     }
+
     section.ourProducts-section-8 .outproducts-box {
         width: 80%;
     }
-  
-    
 }
 
 @media all and (max-width : 371px) {
-    section.experience-section-3 {
+    /* section.experience-section-3 {
         height: 50rem;
-    }
+    } */
 
     section.ourProducts-section-8 .outproducts-box {
         padding: 1rem;
@@ -37,10 +36,10 @@
 
 @media all and (min-width :556px) and (max-width : 778px) {
 
-    .experience-section-4 .image-height,
+    /* .experience-section-4 .image-height,
     .experience-section-4 .black-box {
         height: 35rem;
-    }
+    } */
 
     .images-section-5 img {
         width: 40%;
@@ -59,10 +58,10 @@
         left: 17%;
     }
 
-    .experience-section-4 .image-height,
+    /* .experience-section-4 .image-height,
     .experience-section-4 .black-box {
         height: 25rem;
-    }
+    } */
 
     .cus-card-section-2 .card-body {
         min-height: 19rem;
