@@ -67,9 +67,13 @@ section.experience-section-3 .box-height-shadow {
     box-shadow: 0 0 28px rgb(240, 248, 255, .7);
 }
 
+.experience-section-4 {
+    background-color: black;
+}
+
 .experience-section-4 .image-height,
 .black-box {
-    height: 27rem;
+    height: 31rem;
     max-height: auto;
     object-fit: cover;
     width: 100%;
@@ -162,7 +166,7 @@ section.ourProducts-section-8 .outproducts-box {
     width: 100%;
 }
 
-.contact-us ul{
+.contact-us ul {
     list-style: none !important;
 }
 

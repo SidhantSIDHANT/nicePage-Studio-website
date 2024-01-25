@@ -27,14 +27,17 @@ h4 {
     font-weight: bold;
 }
 
+img {
+    width: 100%;
+}
+
 section.elegant-solution-sec-1,
 section.experience-section-3,
-.experience-section-4,
 .digitalExperience-section-7,
 .ourProducts-section-8 {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center
 }
 
 section.elegant-solution-sec-1::after,
